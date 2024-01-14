@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>One-Page Shopping Mall</title>
+    <style>
+        body {
+            background-color: #F8F9FA;
+        }
+        .mall-container {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+        .mall-card {
+            border: 1px solid #DEE2E6;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .mall-card-body {
+            padding: 20px;
+        }
+        #orderButton {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mall-container">
+        <div class="card mall-card">
+            <div class="card-body mall-card-body">
+                <h1>Welcome to One-Page Shopping Mall</h1>
+                <p>Explore our wide range of products and place your order now!</p>
+                <!-- Order button -->
+                <button id="orderButton" class="btn btn-primary">Place Order</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        // JavaScript function for order button click
+        document.getElementById("orderButton").addEventListener("click", function () {
+            // Display a warning window
+            alert("Your order is complete!");
+        });
+    </script>
+</body>
+</html>
